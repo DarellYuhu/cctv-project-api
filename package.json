@@ -1,0 +1,15 @@
+{
+  "name": "cctv-project-api",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.3",
+    "hono": "^4.6.5",
+    "node-rtsp-stream": "^0.0.9"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/fluent-ffmpeg": "^2.1.26"
+  }
+}
