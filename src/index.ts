@@ -2,7 +2,7 @@ import app from "./app";
 
 const server = Bun.serve({
   fetch: app.fetch,
-  port: 3000,
+  port: 3001,
   websocket: app.websocket,
 });
 
